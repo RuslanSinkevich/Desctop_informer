@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS `bans`;
+CREATE TABLE `bans` (
+  `account_name` VARCHAR(45) DEFAULT NULL,
+  `obj_Id` int unsigned NOT NULL DEFAULT 0,
+  `baned` VARCHAR(20) DEFAULT NULL,
+  `unban` VARCHAR(20) DEFAULT NULL,
+  `reason` VARCHAR(200) DEFAULT NULL,
+  `GM` VARCHAR(35) DEFAULT NULL,
+  `endban` int unsigned DEFAULT NULL,
+  `karma` int DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

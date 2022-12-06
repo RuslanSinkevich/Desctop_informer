@@ -1,0 +1,1 @@
+ALTER TABLE `characters` CHANGE COLUMN `bookmarks` `bookmarkslot` SMALLINT UNSIGNED NOT NULL DEFAULT 0 AFTER `fame`;

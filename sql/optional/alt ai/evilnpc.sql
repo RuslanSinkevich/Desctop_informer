@@ -1,0 +1,1 @@
+UPDATE `npc` SET `ai_type`="EvilNpc" WHERE `ai_type`='npc';
